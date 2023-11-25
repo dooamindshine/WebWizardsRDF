@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:Dept="http://tuc.web.engineering/department#"
+         >
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/department#DeptDistributedSystems">
+    <rdf:type rdf:resource="http://tuc.web.engineering/department#"/>
+    <rdfs:comment>This is department of Distributed Systems</rdfs:comment>
+    <Dept:hasDeptId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Dept:hasDeptId>
+    <Dept:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professur Verteilte und selbstorganisierende Rechnersysteme</Dept:hasName>
+  </rdf:Description>
+
+</rdf:RDF>
