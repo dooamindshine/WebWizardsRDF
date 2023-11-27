@@ -11,4 +11,18 @@
     <Dept:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professur Verteilte und selbstorganisierende Rechnersysteme</Dept:hasName>
   </rdf:Description>
 
+  <rdf:Description rdf:about="http://tuc.web.engineering/department#DeptDatenverwaltungssysteme">
+    <rdf:type rdf:resource="http://tuc.web.engineering/department#"/>
+    <rdfs:comment>This is department of Advance Database</rdfs:comment>
+    <Dept:hasDeptId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Dept:hasDeptId>
+    <Dept:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professur Datenverwaltungssysteme</Dept:hasName>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/department#DeptSoftwaretechnik">
+    <rdf:type rdf:resource="http://tuc.web.engineering/department#"/>
+    <rdfs:comment>This is department of Software</rdfs:comment>
+    <Dept:hasDeptId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Dept:hasDeptId>
+    <Dept:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professur Softwaretechnik</Dept:hasName>
+  </rdf:Description>
+
 </rdf:RDF>
