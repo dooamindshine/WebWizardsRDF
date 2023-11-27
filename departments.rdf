@@ -1,14 +1,34 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:Dept="http://tuc.web.engineering/department#"
-         >
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:Dept="http://tuc.web.engineering/department#">
 
-  <rdf:Description rdf:about="http://tuc.web.engineering/department#DeptDistributedSystems">
-    <rdf:type rdf:resource="http://tuc.web.engineering/department#"/>
-    <rdfs:comment>This is department of Distributed Systems</rdfs:comment>
-    <Dept:hasDeptId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Dept:hasDeptId>
-    <Dept:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professur Verteilte und selbstorganisierende Rechnersysteme</Dept:hasName>
-  </rdf:Description>
+    <rdf:Description rdf:about="http://tuc.web.engineering/department#DeptDistributedSystems">
+        <rdf:type rdf:resource="http://tuc.web.engineering/department#"/>
+        <rdfs:comment>This is department of Distributed Systems</rdfs:comment>
+        <Dept:hasDeptId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Dept:hasDeptId>
+        <Dept:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professur Verteilte und selbstorganisierende Rechnersysteme</Dept:hasName>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://tuc.web.engineering/department#MA">
+        <rdf:type rdf:resource="http://tuc.web.engineering/department#"/>
+        <rdfs:comment>This is department of Studiendekan für den Studiengang (MA)
+        </rdfs:comment>
+        <Dept:hasDeptId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Dept:hasDeptId>
+        <Dept:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Studiendekan für den Studiengang Web Engineering (MA)</Dept:hasName>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://tuc.web.engineering/department#Informationssicherheit">
+        <rdf:type rdf:resource="http://tuc.web.engineering/department#"/>
+        <rdfs:comment>This is department of Professur Theoretische Informatik (Informationssicherheit)
+        </rdfs:comment>
+        <Dept:hasDeptId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Dept:hasDeptId>
+        <Dept:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professur Theoretische Informatik (Informationssicherheit)</Dept:hasName>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://tuc.web.engineering/department#ProfessurRechnerarchitekturundMikroprogrammierung">
+        <rdf:type rdf:resource="http://tuc.web.engineering/department#"/>
+        <rdfs:comment>This is department of Professur Rechnerarchitektur und Mikroprogrammierung</rdfs:comment>
+        <Dept:hasDeptId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Dept:hasDeptId>
+        <Dept:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professur Rechnerarchitektur und Mikroprogrammierung</Dept:hasName>
+    </rdf:Description>
 
 </rdf:RDF>
