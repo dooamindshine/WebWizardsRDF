@@ -33,6 +33,86 @@
     <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</module:hasCreditPoints>
   </rdf:Description>
 
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#PP">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">561070</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parallele Programmierung</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Architektur und Verbindungsnetzwerke paralleler Systeme</module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#PracticalComputerScience"/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</module:hasCreditPoints>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#BVS">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">565010</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betriebssysteme für verteilte Systeme</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algorithmen für Basisprobleme (Mutex, Terminierung, Auswahl, etc.)</module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#OperatingSystems"/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</module:hasCreditPoints>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#ATS">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">565030</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echtzeitsysteme</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theorie und Praxis von Rechensystemen, die zur Lösung zeitkritischer Probleme eingesetzt werden.</module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#OperatingSystems"/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</module:hasCreditPoints>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#EKI">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">573030</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einführung in die Künstliche Intelligenz</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intelligente Agenten, Problemformulierung und Problemtypen</module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#ArtificialIntelligence"/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</module:hasCreditPoints>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#ML">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">573050</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maschinelles Lernen</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einführung, Einordnung, historischer Überblick</module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#ArtificialIntelligence"/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</module:hasCreditPoints>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#MC">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">578050</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mediencodierung</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Es werden zentrale Aspekte der Codierung medialer Daten besprochen.</module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#MediaInformatics"/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</module:hasCreditPoints>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#MCI">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">578070</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mensch-Computer-Interaktion II</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Die Mensch-Computer-Interaktion II behandelt Interaktionsmöglichkeiten zwischen Mensch und Computer insbesondere bei multimedialen Inhalten.</module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#MediaInformatics"/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</module:hasCreditPoints>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#CL">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">824005</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Communication and Leadership</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Das Modul beschäftigt sich mit der Kommunikation im Führungskontext.</module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#PsychologyStudies"/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</module:hasCreditPoints>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#CL">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136130</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deutsch als Fremdsprache I (Niveau A1)</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vermittlung von Grundkenntnissen der deutschen Sprache (Lexik, Grammatik,Phonetik)</module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#GermanLanguage"/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</module:hasCreditPoints>
+      </rdf:Description>
   <rdf:Description rdf:about="http://tuc.web.engineering/module#SSE">
     <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
     <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">553090</module:hasModuleNumber>
