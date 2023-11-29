@@ -157,7 +157,7 @@
     <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</module:hasCreditPoints>
   </rdf:Description>
 
-</rdf:RDF>
+
   
 
     <rdf:Description rdf:about="http://tuc.web.engineering/module#SON">
